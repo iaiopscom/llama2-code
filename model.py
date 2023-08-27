@@ -37,7 +37,7 @@ def generate(prompt, max_new_tokens, temperature, top_p, top_k):
             temperature=temperature,
             top_p=top_p,
             top_k=top_k,
-            stream=True)
+            stream=False)
 
 
 def get_input_token_length(message: str, chat_history: list[tuple[str, str]], system_prompt: str) -> int:
