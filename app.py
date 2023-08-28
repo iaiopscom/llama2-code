@@ -81,8 +81,6 @@ def check_input_token_length(message: str, chat_history: list[tuple[str, str]], 
 
 with gr.Blocks(css='style.css') as demo:
     gr.Markdown(DESCRIPTION)
-    gr.DuplicateButton(value='Duplicate Space for private use',
-                       elem_id='duplicate-button')
 
     with gr.Group():
         chatbot = gr.Chatbot(label='Chatbot')
