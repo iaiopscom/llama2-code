@@ -13,8 +13,10 @@ def download_model():
     print("Downloaded " + file)
     return file
 
-model_repo = "TheBloke/CodeLlama-7B-Instruct-GGUF"
-model_filename = "codellama-7b-instruct.Q4_K_S.gguf"
+#model_repo = "TheBloke/CodeLlama-7B-Instruct-GGUF"
+model_repo = "TheBloke/CodeLlama-34B-Instruct-GGUF"
+#model_filename = "codellama-7b-instruct.Q4_K_S.gguf"
+model_filename = "codellama-34b-instruct.Q5_K_S.gguf"
 
 model_path = download_model()
 
