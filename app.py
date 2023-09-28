@@ -264,4 +264,4 @@ with gr.Blocks(css='style.css') as demo:
         api_name=False,
     )
 
-demo.queue(max_size=20).launch()
+demo.queue(max_size=20).launch(share=True)
